@@ -1,0 +1,86 @@
+0000.047 (R) [notice] Looking for db archive: file name: backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-db.gz
+0000.048 (R) [notice] Archive is expected to be size: 188.3 KB: OK
+0000.050 (R) [notice] Looking for plugins archive: file name: backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-plugins.zip
+0000.051 (R) [notice] Archive is expected to be size: 6836.4 KB: OK
+0000.052 (R) [notice] Looking for themes archive: file name: backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-themes.zip
+0000.053 (R) [notice] Archive is expected to be size: 6200.4 KB: OK
+0000.055 (R) [notice] Looking for uploads archive: file name: backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-uploads.zip
+0000.055 (R) [notice] Archive is expected to be size: 10223 KB: OK
+0000.058 (R) [notice] Looking for others archive: file name: backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-others.zip
+0000.058 (R) [notice] Archive is expected to be size: 745.5 KB: OK
+0000.060 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.062 (R) [notice] Unpacking backup... (backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-db.gz, 0.2 Mb)
+0000.064 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.133 (R) [notice] Bật chế độ Bảo trì&#8230;
+0000.153 (R) [notice] Backup of: http://localhost:7000/myproject/wordpress
+0000.154 (R) [notice] Content URL: http://localhost:7000/myproject/wordpress/wp-content
+0000.154 (R) [notice] Uploads URL: http://localhost:7000/myproject/wordpress/wp-content/uploads
+0000.154 (R) [notice] Old table prefix: wp_
+0000.154 (R) [notice] Site information: multisite = 0
+0000.154 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.155 (R) [notice] New table prefix: wt_
+0000.160 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: wt_options
+0000.225 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.230 (R) [notice] Atomic restore: renaming new table (wt_options) to final table name (wp_options)
+0000.251 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: wt_users
+0000.284 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.291 (R) [notice] Atomic restore: renaming new table (wt_users) to final table name (wp_users)
+0000.297 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: wt_usermeta
+0000.326 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.333 (R) [notice] Atomic restore: renaming new table (wt_usermeta) to final table name (wp_usermeta)
+0000.339 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: wt_commentmeta
+0000.365 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.369 (R) [notice] Atomic restore: renaming new table (wt_commentmeta) to final table name (wp_commentmeta)
+0000.375 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: wt_comments
+0000.402 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.407 (R) [notice] Atomic restore: renaming new table (wt_comments) to final table name (wp_comments)
+0000.413 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: wt_links
+0000.433 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.438 (R) [notice] Atomic restore: renaming new table (wt_links) to final table name (wp_links)
+0000.445 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: wt_postmeta
+0000.473 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.479 (R) [notice] Atomic restore: renaming new table (wt_postmeta) to final table name (wp_postmeta)
+0000.484 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: wt_posts
+0000.524 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.528 (R) [notice] Atomic restore: renaming new table (wt_posts) to final table name (wp_posts)
+0000.534 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: wt_term_relationships
+0000.560 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.564 (R) [notice] Atomic restore: renaming new table (wt_term_relationships) to final table name (wp_term_relationships)
+0000.568 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: wt_term_taxonomy
+0000.596 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.601 (R) [notice] Atomic restore: renaming new table (wt_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.605 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: wt_termmeta
+0000.627 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.631 (R) [notice] Atomic restore: renaming new table (wt_termmeta) to final table name (wp_termmeta)
+0000.637 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: wt_terms
+0000.663 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.668 (R) [notice] Atomic restore: renaming new table (wt_terms) to final table name (wp_terms)
+0000.674 (R) [notice] Processing table (InnoDB):  wp_wpfront_ure_login_redirect - will restore as: wt_wpfront_ure_login_redirect
+0000.695 (R) [notice] Atomic restore: dropping original table (wp_wpfront_ure_login_redirect)
+0000.699 (R) [notice] Atomic restore: renaming new table (wt_wpfront_ure_login_redirect) to final table name (wp_wpfront_ure_login_redirect)
+0000.704 (R) [notice] Processing table (InnoDB):  wp_wpfront_ure_options - will restore as: wt_wpfront_ure_options
+0000.730 (R) [notice] Vô hiệu hóa chế độ bảo trì&#8230;
+0000.730 (R) [notice] Atomic restore: dropping original table (wp_wpfront_ure_options)
+0000.735 (R) [notice] Atomic restore: renaming new table (wt_wpfront_ure_options) to final table name (wp_wpfront_ure_options)
+0000.741 (R) [notice] Finished: lines processed: 48 in 0.67 seconds
+0000.742 (R) [notice] Cleaning up rubbish...
+0000.749 (R) [notice] Unpacking backup... (backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-plugins.zip, 6.7 MB)
+0002.619 (R) [notice] Unzip progress: 1002 out of 1731 files (18.9 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Cache/AbstractCacheAdapter.php)
+0005.311 (R) [notice] Unzip progress: 1731 out of 1731 files (22.6 MB, plugins/wpfront-user-role-editor/wpfront-user-role-editor.php)
+0005.319 (R) [notice] Moving old data out of the way...
+0006.142 (R) [notice] Moving unpacked backup into place...
+0007.234 (R) [notice] Cleaning up rubbish...
+0007.243 (R) [notice] Unpacking backup... (backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-themes.zip, 6.1 MB)
+0008.560 (R) [notice] Unzip progress: 591 out of 591 files (11.2 MB, themes/twentytwentyone/template-parts/post/author-bio.php)
+0008.565 (R) [notice] Moving old data out of the way...
+0008.796 (R) [notice] Moving unpacked backup into place...
+0009.102 (R) [notice] Cleaning up rubbish...
+0009.159 (R) [notice] Unpacking backup... (backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-uploads.zip, 10 MB)
+0009.201 (R) [notice] Unzip progress: 19 out of 19 files (10 MB, uploads/2021/05/y2mate.com-Nhung-Bai-Hat-Co-Phong-Hay-Nhung-It-Nguoi-Nghe.mp3)
+0009.203 (R) [notice] Moving old data out of the way...
+0009.207 (R) [notice] Moving unpacked backup into place...
+0009.211 (R) [notice] Cleaning up rubbish...
+0009.215 (R) [notice] Unpacking backup... (backup_2021-06-03-1401_MY_WORDPRESS_5ab53c250a03-others.zip, 0.7 MB)
+0009.326 (R) [notice] Unzip progress: 74 out of 74 files (2.7 MB, languages/vi.po)
+0009.331 (R) [notice] Cleaning up rubbish...
+0009.351 (R) [notice] Restore successful!
